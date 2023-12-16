@@ -1,0 +1,117 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+  }
+  
+  h3 {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+  }
+  
+  p {
+    margin-bottom: 1em;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    list-style: none;
+    margin-bottom: 0.5em;
+  }
+  
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .header {
+    background-color: #333c87;
+    color: #ffffff;
+    padding: 2em;
+  }
+  
+  .summary {
+    background-color: #ffffff;
+    padding: 2em;
+  }
+  
+  .experience {
+    background-color: #ffffff;
+    padding: 2em;
+  }
+  
+  .skills {
+    background-color: #ffffff;
+    padding: 2em;
+  }
+  
+  .social-links {
+    list-style: none;
+    float: right;
+    margin-top: 1em;
+  }
+  
+  .social-links li {
+    display: inline-block;
+    margin-right: 1em;
+  }
+  
+  .social-links li a {
+    color: #212121;
+    text-align: center;
+    line-height: 40px;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      width: 100%;
+    }
+  }
+  
+  .language-button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .language-drop{
+    position: relative;
+    display: inline-block;
+  }
+  
+  .language-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .language-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .language-content a:hover {background-color: #ddd;}
+  
+  .language-drop:hover .language-content {display: block;}
+  
+  .language-drop:hover .language-button {background-color: #3e8e41;}
