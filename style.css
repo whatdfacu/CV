@@ -58,6 +58,17 @@ body {
     padding: 2em;
   }
   
+  #li-png{
+    width: 5%;
+    height: 5.95%;
+  }
+
+  #gi-png{
+    width: 5%;
+    height: 5.95%;
+  }
+  
+
   .social-links {
     list-style: none;
     float: right;
