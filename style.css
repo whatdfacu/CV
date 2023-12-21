@@ -1,4 +1,4 @@
-ul {
+* {
   padding-inline-start: 0px;
   margin-block-start: 0px;
   margin-block-end: 0px;
@@ -8,6 +8,8 @@ ul {
 body {
   font-family: sans-serif;
   line-height: 1.5;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 h1 {
@@ -27,7 +29,8 @@ h3 {
 
 .header {
   display: flex;
-  justify-content: center;
+  justify-content: right;
+  text-align: right;
   grid-area: header;
   background-color: #333c87;
   color: #ffffff;
@@ -35,8 +38,8 @@ h3 {
 }
 .social-links {
   display: flex;
-  flex-direction: row;
   justify-content: left;
+  flex-direction: row;
   list-style: none;
   margin-top: 8em;
 }
@@ -46,23 +49,34 @@ h3 {
 }
 
 .extra {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
   grid-area: extra;
   background-color: #333c87;
 }
 
 .summary {
+  display: flex;
+  justify-content: center;
   grid-area: summary;
   background-color: #ffffff;
   padding: 2em;
 }
 
 .experience {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   grid-area: experience;
   background-color: #ffffff;
   padding: 2em;
 }
 
 .skills {
+  display: flex;
+  justify-content: right;
+  flex-direction: column;
   grid-area: skills;
   background-color: #ffffff;
   padding: 2em;
@@ -133,6 +147,11 @@ h3 {
 }
 
 @media screen and (max-width: 720px) {
+  body {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
   .social-links {
     flex-direction: column;
   }
