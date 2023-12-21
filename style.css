@@ -147,6 +147,7 @@ h3 {
 
 .grid-container {
   display: grid;
+  grid-gap: 0px;
   grid-template-areas:
     "extra header header header"
     "summary summary summary summary"
@@ -155,7 +156,7 @@ h3 {
     "footer footer footer footer";
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 1080px) {
   body {
     margin-left: 0%;
     margin-right: 0%;
