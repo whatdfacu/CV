@@ -6,6 +6,3 @@ async function getText(file){
     console.log(myText);
 
 }
-
-
-console.log(myText);
