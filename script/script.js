@@ -1,5 +1,11 @@
-const response = fetch("spanish-translation.json");
-const translations = await response.json();
-const translatedText = translations["Full-Stack Web Developer"];
+getText("spanish-translation.json");
 
-console.log(translatedText);
+async function getText(file){
+    let myObject = await fetch(file);
+    let myText = await myObject.text();
+    console.log(myText);
+
+}
+
+
+console.log(myText);
