@@ -43,6 +43,7 @@ p{
   display: flex;
   justify-content: right;
   text-align: right;
+  align-items: center;
   grid-area: header;
   background-color: #333c87;
   color: #ffffff;
@@ -51,6 +52,7 @@ p{
 }
 
 #mePic{
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.367);
   border-radius: 100%;
   margin: 1.5em 0 0 2em;
   height: 70%;
@@ -67,6 +69,12 @@ p{
 .social-links li {
   padding: 10px;
 }
+
+.social-links li img {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.367);
+}
+
+#gi-png{border-radius: 3px;}
 
 .extra {
   display: flex;
@@ -126,11 +134,14 @@ p{
 }
 
 .language-button {
-  background-color: #04aa6d;
+  border-radius: 3px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.367);
+  background-color: #04aa6d7b;
   color: white;
   padding: 16px;
   font-size: 16px;
   border: none;
+
 
 }
 
@@ -187,9 +198,7 @@ p{
     margin-right: 0%;
   } 
 
-  .social-links {
-    flex-direction: column;
-  }
+
   .grid-container {
     grid-template-areas:
       "extra header header header"
@@ -201,6 +210,14 @@ p{
   }
 }
 
+ @media screen and (max-width: 572px) {
+
+  #mePic{display: none;}
+  .social-links {
+    flex-direction: column;
+    margin-top: 6em;
+  }
+}
 .education li{
   padding-top: 20px ;
 }
