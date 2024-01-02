@@ -54,7 +54,7 @@ p{
 #mePic{
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.367);
   border-radius: 100%;
-  margin: 1.5em 0 0 2em;
+  margin: 1.5em 0 0 20%;
   height: 70%;
   width: 70%;
 }
@@ -177,7 +177,8 @@ p{
 }
 
 .language-drop:hover .language-button {
-  background-color: #3e8e41;
+  background-color: #04aa6d7b;
+  box-shadow: 0px 0px 0px;
 }
 
 .grid-container {
@@ -210,14 +211,26 @@ p{
   }
 }
 
- @media screen and (max-width: 572px) {
+@media screen and (max-width: 572px) {
+
+  #mePic{
+    margin-left: 15px;
+    padding-left: 0px;
+    height:140px;
+    width: 140px;}
+  .social-links {
+    padding-top: 1em;
+  }
+}
+
+ @media screen and (max-width: 411px) {
 
   #mePic{display: none;}
   .social-links {
     flex-direction: column;
-    margin-top: 6em;
+    padding-top: 11em;
   }
 }
 .education li{
-  padding-top: 20px ;
+  padding-top: 20px;
 }
