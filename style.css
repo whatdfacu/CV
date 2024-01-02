@@ -78,16 +78,16 @@ p{
 }
 
 .experience {
+  padding: 0 0 0 20%;
   display: flex;
   justify-content: center;
   flex-direction: column;
   grid-area: experience;
   background-color: #ffffff;
-  padding: 2em;
 }
 
 .skills {
-  padding: 2em;
+  padding: 0 10%;
   display: flex;
   justify-content: right;
   flex-direction: column;
@@ -96,12 +96,15 @@ p{
 }
 
 .education {
-  padding: 1em;
   display: flex;
   justify-content: center;
   flex-direction: column;
   grid-area: education;
   background-color: #ffffff;
+}
+
+.summary, .education{
+  padding: 20px 10%;
 }
 
 .footer {
