@@ -30,5 +30,13 @@
     "Desarrollo en PHP" : ["PHP development","Desenvolvimento em PHP"],
     "Educación" : ["Education","Educação"],
     "Desarrollador Full Stack" : ["Full Stack Developer","Desenvolvedor Full Stack"],
-    "Desarrollador Front End" : ["Front End Developer","Desenvolvedor Front-End"]
+    "Desarrollador Front End" : ["Front End Developer","Desenvolvedor Front-End"],
+    "Programación en Python": ["Python programming","Programação em Python"],
+    "Diseño 3D y simulaciones en Solid Works": ["3D Design and simulations in Solid Works","Design 3D e simulações no SolidWorks."],
+    "Impresión 3D (5 años de experiencia)" : ["3D Printing (5 years of experience)","Impressão 3D (5 anos de experiência)."],
+    "G-Code y software de laminado (Slicer).": ["G-Code and Slicer's Software" ,"Código G e software de fatiamento (Slicer)."],
+    "Información de contacto": ["Contact Information" ,"Informação de contato"],
+    "Dirección" : ["Adress","Endereço"],
+    "Teléfono" : ["Phone","Telefone"],
+    "Correo Electrónico" : ["E-mail","E-mail"]
 }

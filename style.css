@@ -118,6 +118,14 @@ p {
   background-color: #ffffff;
 }
 
+div .contact{
+  padding: 2em 0 2em 0;
+  display: flex;
+  justify-content: right;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+
 .skills ul li {
   list-style: disc;
 }
