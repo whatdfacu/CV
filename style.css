@@ -242,12 +242,12 @@ div .contact{
     text-align: center;
   }
   .skills {
-    text-align: center;
+    text-align:justify;
     align-items: center;
     padding-bottom: 2em;
   }
   .educationContent {
-    text-align: center;
+    text-align: justify;
     flex-direction: column;
   }
 }
