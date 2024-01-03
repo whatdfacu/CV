@@ -220,7 +220,7 @@ div .contact{
   grid-template-columns: 25% 25% 25% 25%;
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 915px) {
   body {
     margin-left: 0%;
     margin-right: 0%;
