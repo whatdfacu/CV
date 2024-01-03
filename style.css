@@ -91,6 +91,7 @@ p {
   background-color: #ffffff;
   padding: 2em;
 }
+
 .summary p {
   text-align: justify;
 }
@@ -118,7 +119,11 @@ p {
   background-color: #ffffff;
 }
 
-div .contact {
+.skills h3 {
+  text-align: center;
+}
+
+.contact {
   padding: 2em 0 2em 0;
   display: flex;
   justify-content: right;
@@ -276,4 +281,50 @@ div .contact {
 
 .education li {
   padding-top: 20px;
+}
+
+@media print and (max-width: 912px) {
+  body {
+    background-color: none;
+    margin-left: 0;
+    margin-right: 0;
+    box-shadow: none;
+  }
+
+  #mePic {
+    margin: 30px;
+    padding-left: 0px;
+    height: 180px;
+    width: 180px;
+  }
+  .social-links {
+    display: none;
+  }
+
+  .skills {
+    flex-direction: row;
+    justify-content: left;
+    padding: 1em 6em;
+  }
+  .contact {
+    padding-top: 0;
+    padding-left: 3em;
+  }
+
+  .contact {
+    margin-top: 0;
+  }
+
+  .language-button {
+    display: none;
+  }
+  .grid-container {
+    grid-template-areas:
+      "extra header header header"
+      "summary summary summary summary"
+      "skills skills skills skills"
+      "experience experience experience experience"
+      "education education education education"
+      "footer footer footer footer";
+  }
 }
