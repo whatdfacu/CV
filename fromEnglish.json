@@ -1,43 +1,162 @@
 {
-    "Full-Stack Web Developer" : ["Desarrollador web full-stack", "Desenvolvedor web full-stack"],
-    "Language" : ["Idioma","Linguagem"],
-    "Spanish" : ["Español","Espanhol"],
-    "Portuguese" : ["Portugués","Português"],
-    "Summary" : ["Resumen","Resumo"],
-    "Full-stack developer with experience in JavaScript, CSS, HTML, and PHP. Strong focus on innovation and the development of new technologies." : ["Desarrollador full-stack con experiencia en JavaScript, CSS, HTML, y PHP. Fuerte enfoque en la innovación y el desarrollo de nuevas tecnologías.","Desenvolvedor full-stack com experiência em JavaScript, CSS, HTML e PHP. Foco forte em inovação e desenvolvimento de novas tecnologias."],
-    "Work Experience" : ["Experiencia laboral","Experiência profissional"],
-    "Logistics and Materials Technician" : ["Técnico en logística y materiales","Tecnico de logística e materiais"],
-    "Management and logistics of equipment and materials of the company." : ["Gestión y logística de equipos y materiales de la empresa.","Gestão e logística de equipamentos e materiais da empresa."],
-    "Quotations management for customer product and project implementation." : ["Gestión de cotizaciones para la implementación de productos y proyectos para clientes.","Gestão de cotações para implementação de produtos e projetos para clientes."],
-    "Project Manager" : ["Gerente de protectos","Gerente de projetos"],
-    "Supervised a teams up to 10 people and delivered the SIC project on time and within budget." : ["Supervisé un equipo de 10 personas y logramos entregar el proyecto SIC a tiempo y dentro del presupuesto.","Supervisionei uma equipe de 10 pessoas e conseguimos entregar o projeto SIC dentro do prazo e do orçamento."],
-    "Led team meetings and ensured everyone was aligned on project goals." : ["Dirigí las reuniones del equipo y aseguré que todos estuvieran informados de los objetivos del proyecto.","Dirigi as reuniões da equipe e assegurei que todos estivessem informados dos objetivos do projeto."],
-    "Worked with clients to gather requirements and ensure the project met their expectations." : ["Trabajé con los clientes para recopilar sus requisitos y asegurar que el proyecto cumpliera sus expectativas.","Trabalhei com os clientes para coletar seus requisitos e garantir que o projeto atendesse às suas expectativas."],
-    "Work Supervisor" : ["Supervisor de obra","Supervisor de trabalho"],
-    "Supervised and monitored tasks assigned to the SIC project." : ["Supervisé y monitoreé las tareas asignadas en el proyecto SIC.","Supervisionei e monitorei as tarefas atribuídas no projeto SIC."],
-    "Resolved issues and ensured the project stayed on track." : ["Resolví problemas y aseguré que el proyecto se completara según lo previsto.","Resolva problemas e assegurei que o projeto fosse concluído conforme o previsto."],
-    "Provided training and support to team members." : ["Brindé capacitación y apoyo a los miembros del equipo.","Ofereci treinamento e suporte aos membros da equipe."],
-    "CAD-Designer" : ["Proyectista CAD","Projetista CAD"],
-    "Conducted field surveys and prepared plans and documentation for the SIC project's structured cabling." : ["Realicé encuestas de campo y preparé planos y documentos para el cableado estructurado del proyecto SIC.","Realizei pesquisas de campo e preparei plantas e documentos para o cabeamento estruturado do projeto SIC."],
-    "Worked with engineers to design solutions that met project requirements." : ["Trabajé con ingenieros para diseñar soluciones que cumplieran con los requisitos del proyecto.","Trabalhei com engenheiros para projetar soluções que atendessem aos requisitos do projeto."],
-    "Assembly Operator" : ["Operario de montaje","Operador de montagem"],
-    "Installed parts for the Sprinter (Vans) assembly line." : ["Instalé piezas para la línea de montaje de Sprinter (Vans).","Instalei peças para a linha de montagem Sprinter (Vans)."],
-    "Conducted surveys of tasks on that line to update assembly processes." : ["Realicé encuestas para las tareas de esa línea para actualizar los procesos de montaje.","Realizei pesquisas para as tarefas dessa linha para atualizar os processos de montagem."],
-    "Skills" : ["Habilidades","Habilidades"],
-    "JavaScript programming" : ["Programación en JavaScript","Programação em JavaScript"],
-    "CSS proficiency" : ["Dominio de CSS","Domínio de CSS"],
-    "HTML experience" : ["Experiencia en HTML","Experiência em HTML"],
-    "PHP development" : ["Desarrollo en PHP","Desenvolvimento em PHP"],
-    "Education" : ["Educación","Educação"],
-    "Full Stack Developer" : ["Desarrollador Full Stack","Desenvolvedor Full Stack"],
-    "Front End Developer" : ["Desarrollador Front End","Desenvolvedor Front-End"],
-    "Python programming" : ["Programación en Python","Programação em Python"],
-    "3D Design and simulations in Solid Works" : ["Diseño 3D y simulaciones en Solid Works","Design 3D e simulações no SolidWorks."],
-    "3D Printing (5 years of experience)" : ["Impresión 3D (5 años de experiencia)","Impressão 3D (5 anos de experiência)."],
-    "G-Code and Slicer's Software" : ["G-Code y software de laminado (Slicer).","Código G e software de fatiamento (Slicer)."],
-    "Contact Information" : ["Información de contacto", "Informação de contato"],
-    "Adress" : ["Dirección","Endereço"],
-    "Phone" : ["Teléfono","Telefone"],
-    "E-mail" : ["Correo Electrónico","E-mail"]
-
+    "Full-Stack Web Developer": [
+        "Desarrollador web full-stack",
+        "Desenvolvedor web full-stack"
+    ],
+    "Language": [
+        "Idioma",
+        "Linguagem"
+    ],
+    "Spanish": [
+        "Español",
+        "Espanhol"
+    ],
+    "Portuguese": [
+        "Portugués",
+        "Português"
+    ],
+    "Summary": [
+        "Resumen",
+        "Resumo"
+    ],
+    "Full-stack developer with experience in JavaScript, CSS, HTML, and PHP. Strong focus on innovation and the development of new technologies.": [
+        "Desarrollador full-stack con experiencia en JavaScript, CSS, HTML, y PHP. Fuerte enfoque en la innovación y el desarrollo de nuevas tecnologías.",
+        "Desenvolvedor full-stack com experiência em JavaScript, CSS, HTML e PHP. Foco forte em inovação e desenvolvimento de novas tecnologias."
+    ],
+    "Work Experience": [
+        "Experiencia laboral",
+        "Experiência profissional"
+    ],
+    "Logistics and Materials Technician": [
+        "Técnico en logística y materiales",
+        "Tecnico de logística e materiais"
+    ],
+    "Management and logistics of equipment and materials of the company.": [
+        "Gestión y logística de equipos y materiales de la empresa.",
+        "Gestão e logística de equipamentos e materiais da empresa."
+    ],
+    "Quotations management for customer product and project implementation.": [
+        "Gestión de cotizaciones para la implementación de productos y proyectos para clientes.",
+        "Gestão de cotações para implementação de produtos e projetos para clientes."
+    ],
+    "Project Manager": [
+        "Gerente de protectos",
+        "Gerente de projetos"
+    ],
+    "Supervised a teams up to 10 people and delivered the SIC project on time and within budget.": [
+        "Supervisé un equipo de 10 personas y logramos entregar el proyecto SIC a tiempo y dentro del presupuesto.",
+        "Supervisionei uma equipe de 10 pessoas e conseguimos entregar o projeto SIC dentro do prazo e do orçamento."
+    ],
+    "Led team meetings and ensured everyone was aligned on project goals.": [
+        "Dirigí las reuniones del equipo y aseguré que todos estuvieran informados de los objetivos del proyecto.",
+        "Dirigi as reuniões da equipe e assegurei que todos estivessem informados dos objetivos do projeto."
+    ],
+    "Worked with clients to gather requirements and ensure the project met their expectations.": [
+        "Trabajé con los clientes para recopilar sus requisitos y asegurar que el proyecto cumpliera sus expectativas.",
+        "Trabalhei com os clientes para coletar seus requisitos e garantir que o projeto atendesse às suas expectativas."
+    ],
+    "Work Supervisor": [
+        "Supervisor de obra",
+        "Supervisor de trabalho"
+    ],
+    "Supervised and monitored tasks assigned to the SIC project.": [
+        "Supervisé y monitoreé las tareas asignadas en el proyecto SIC.",
+        "Supervisionei e monitorei as tarefas atribuídas no projeto SIC."
+    ],
+    "Resolved issues and ensured the project stayed on track.": [
+        "Resolví problemas y aseguré que el proyecto se completara según lo previsto.",
+        "Resolva problemas e assegurei que o projeto fosse concluído conforme o previsto."
+    ],
+    "Provided training and support to team members.": [
+        "Brindé capacitación y apoyo a los miembros del equipo.",
+        "Ofereci treinamento e suporte aos membros da equipe."
+    ],
+    "CAD-Designer": [
+        "Proyectista CAD",
+        "Projetista CAD"
+    ],
+    "Conducted field surveys and prepared plans and documentation for the SIC project's structured cabling.": [
+        "Realicé encuestas de campo y preparé planos y documentos para el cableado estructurado del proyecto SIC.",
+        "Realizei pesquisas de campo e preparei plantas e documentos para o cabeamento estruturado do projeto SIC."
+    ],
+    "Worked with engineers to design solutions that met project requirements.": [
+        "Trabajé con ingenieros para diseñar soluciones que cumplieran con los requisitos del proyecto.",
+        "Trabalhei com engenheiros para projetar soluções que atendessem aos requisitos do projeto."
+    ],
+    "Assembly Operator": [
+        "Operario de montaje",
+        "Operador de montagem"
+    ],
+    "Installed parts for the Sprinter (Vans) assembly line.": [
+        "Instalé piezas para la línea de montaje de Sprinter (Vans).",
+        "Instalei peças para a linha de montagem Sprinter (Vans)."
+    ],
+    "Conducted surveys of tasks on that line to update assembly processes.": [
+        "Realicé encuestas para las tareas de esa línea para actualizar los procesos de montaje.",
+        "Realizei pesquisas para as tarefas dessa linha para atualizar os processos de montagem."
+    ],
+    "Skills": [
+        "Habilidades",
+        "Habilidades"
+    ],
+    "JavaScript programming": [
+        "Programación en JavaScript",
+        "Programação em JavaScript"
+    ],
+    "CSS proficiency": [
+        "Dominio de CSS",
+        "Domínio de CSS"
+    ],
+    "HTML experience": [
+        "Experiencia en HTML",
+        "Experiência em HTML"
+    ],
+    "PHP development": [
+        "Desarrollo en PHP",
+        "Desenvolvimento em PHP"
+    ],
+    "Education": [
+        "Educación",
+        "Educação"
+    ],
+    "Full Stack Developer": [
+        "Desarrollador Full Stack",
+        "Desenvolvedor Full Stack"
+    ],
+    "Front End Developer": [
+        "Desarrollador Front End",
+        "Desenvolvedor Front-End"
+    ],
+    "Python programming": [
+        "Programación en Python",
+        "Programação em Python"
+    ],
+    "3D Design and simulations in Solid Works": [
+        "Diseño 3D y simulaciones en Solid Works",
+        "Design 3D e simulações no SolidWorks."
+    ],
+    "3D Printing (5 years of experience)": [
+        "Impresión 3D (5 años de experiencia)",
+        "Impressão 3D (5 anos de experiência)."
+    ],
+    "G-Code and Slicer's Software": [
+        "G-Code y software de laminado (Slicer).",
+        "Código G e software de fatiamento (Slicer)."
+    ],
+    "Contact Information": [
+        "Información de contacto",
+        "Informação de contato"
+    ],
+    "Adress": [
+        "Dirección",
+        "Endereço"
+    ],
+    "Phone": [
+        "Teléfono",
+        "Telefone"
+    ],
+    "E-mail": [
+        "Correo Electrónico",
+        "E-mail"
+    ]
 }
