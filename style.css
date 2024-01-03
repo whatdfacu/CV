@@ -91,7 +91,7 @@ p {
   background-color: #ffffff;
   padding: 2em;
 }
-.summary p { 
+.summary p {
   text-align: justify;
 }
 
@@ -105,7 +105,7 @@ p {
   background-color: #ffffff;
 }
 
-.experience ul{
+.experience ul {
   text-align: justify;
 }
 
@@ -118,7 +118,7 @@ p {
   background-color: #ffffff;
 }
 
-div .contact{
+div .contact {
   padding: 2em 0 2em 0;
   display: flex;
   justify-content: right;
@@ -235,14 +235,14 @@ div .contact{
       "education education education education"
       "footer footer footer footer";
   }
-  .summary p{
+  .summary p {
     text-align: justify;
   }
   .experience {
     text-align: center;
   }
   .skills {
-    text-align:justify;
+    text-align: justify;
     align-items: center;
     padding-bottom: 2em;
   }
