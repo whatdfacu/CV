@@ -10,7 +10,7 @@ body {
   line-height: 1.5;
   margin-left: 10%;
   margin-right: 10%;
-  box-shadow: 0px 10px 10px black;
+  box-shadow: 0 10px 10px black;
 }
 
 h1 {
@@ -28,16 +28,14 @@ h3 {
   margin-bottom: 0.5em;
 }
 
- h4 {
+h4 {
   font-size: 1em;
   margin-bottom: 0.5em;
-
 }
 
-p{
+p {
   padding: 10px;
-
-} 
+}
 
 .header {
   display: flex;
@@ -48,10 +46,9 @@ p{
   background-color: #333c87;
   color: #ffffff;
   padding: 2em;
-  
 }
 
-#mePic{
+#mePic {
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.367);
   border-radius: 100%;
   margin: 1.5em 0 0 20%;
@@ -74,7 +71,9 @@ p{
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.367);
 }
 
-#gi-png{border-radius: 3px;}
+#gi-png {
+  border-radius: 3px;
+}
 
 .extra {
   display: flex;
@@ -86,14 +85,19 @@ p{
 
 .summary {
   display: flex;
+  text-align: center;
   justify-content: center;
   grid-area: summary;
   background-color: #ffffff;
   padding: 2em;
 }
+.summary p { 
+  text-align: justify;
+}
 
 .experience {
-  padding: 0 0 0 20%;
+  text-align: center;
+  padding: 0 4em 2em 4em;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -101,8 +105,12 @@ p{
   background-color: #ffffff;
 }
 
+.experience ul{
+  text-align: justify;
+}
+
 .skills {
-  padding: 0 10%;
+  padding: 0 2em;
   display: flex;
   justify-content: right;
   flex-direction: column;
@@ -110,15 +118,30 @@ p{
   background-color: #ffffff;
 }
 
+.skills ul li {
+  list-style: disc;
+}
+
 .education {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
   grid-area: education;
   background-color: #ffffff;
 }
 
-.summary, .education{
+.educationContent {
+  display: flex;
+  flex-direction: row;
+}
+
+.educationContent li {
+  padding: 5em;
+}
+
+.summary,
+.education {
   padding: 20px 10%;
 }
 
@@ -130,7 +153,6 @@ p{
   grid-area: footer;
   text-align: center;
   background-color: #ffffffd1;
-  
 }
 
 .language-button {
@@ -141,8 +163,6 @@ p{
   padding: 16px;
   font-size: 16px;
   border: none;
-
-
 }
 
 .language-drop {
@@ -158,7 +178,6 @@ p{
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
-
 }
 
 .language-content a {
@@ -190,47 +209,63 @@ p{
     "experience experience skills skills"
     "education education education education"
     "footer footer footer footer";
-    grid-template-columns: 25% 25% 25% 25%;
+  grid-template-columns: 25% 25% 25% 25%;
 }
 
 @media screen and (max-width: 1080px) {
   body {
     margin-left: 0%;
     margin-right: 0%;
-  } 
-
+  }
 
   .grid-container {
     grid-template-areas:
       "extra header header header"
       "summary summary summary summary"
-      "experience experience experience experience"
       "skills skills skills skills"
+      "experience experience experience experience"
       "education education education education"
       "footer footer footer footer";
+  }
+  .summary p{
+    text-align: justify;
+  }
+  .experience {
+    text-align: center;
+  }
+  .skills {
+    text-align: center;
+    align-items: center;
+    padding-bottom: 2em;
+  }
+  .educationContent {
+    text-align: center;
+    flex-direction: column;
   }
 }
 
 @media screen and (max-width: 572px) {
-
-  #mePic{
+  #mePic {
     margin-left: 15px;
     padding-left: 0px;
-    height:140px;
-    width: 140px;}
+    height: 140px;
+    width: 140px;
+  }
   .social-links {
     padding-top: 1em;
   }
 }
 
- @media screen and (max-width: 411px) {
-
-  #mePic{display: none;}
+@media screen and (max-width: 411px) {
+  #mePic {
+    display: none;
+  }
   .social-links {
     flex-direction: column;
     padding-top: 11em;
   }
 }
-.education li{
+
+.education li {
   padding-top: 20px;
 }
