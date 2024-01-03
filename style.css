@@ -184,8 +184,8 @@ div .contact{
   position: absolute;
   background-color: #f1f1f1;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.367);
 }
 
 .language-content a {
@@ -205,7 +205,7 @@ div .contact{
 
 .language-drop:hover .language-button {
   background-color: #04aa6d7b;
-  box-shadow: 0px 0px 0px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.367);
 }
 
 .grid-container {
