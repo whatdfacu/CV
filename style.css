@@ -30,7 +30,6 @@ h3 {
 
 h4 {
   font-size: 1em;
-  margin-bottom: 0.5em;
 }
 
 p {
@@ -110,6 +109,10 @@ p {
   text-align: left;
 }
 
+.experience ol {
+  padding-bottom: 1em;
+}
+
 .skills {
   padding: 0 2em;
   display: flex;
@@ -121,6 +124,11 @@ p {
 
 .skills h3 {
   text-align: center;
+}
+
+.contact li,
+.languages li {
+  padding-bottom: 1em;
 }
 
 .contact,
@@ -210,7 +218,7 @@ p {
 }
 
 .language-drop:hover .language-button {
-  background-color: #0075B4;
+  background-color: #0075b4;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.367);
 }
 
