@@ -155,8 +155,28 @@
         "Teléfono",
         "Telefone"
     ],
-    "E-mail": [
+    "Email": [
         "Correo Electrónico",
         "E-mail"
+    ],
+    "Languages": [
+        "Idiomas",
+        "Línguas"
+    ],
+    "English": [
+        "Inglés",
+        "Inglês"
+    ],
+    "Bilingual or native proficiency": [
+        "Competencia bilingüe o nativa",
+        "Proficiência bilíngue ou nativa"
+    ],
+    "Basic Competence": [
+        "Competencia básica",
+        "Competência básica"
+    ],
+    "Native": [
+        "Nativo",
+        "Nativo"
     ]
 }
