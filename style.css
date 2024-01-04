@@ -51,7 +51,7 @@ p {
 #mePic {
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.367);
   border-radius: 100%;
-  margin: 1.5em 0 0 20%;
+  margin: 0.5em 0 0 20%;
   height: 70%;
   width: 70%;
 }
@@ -174,7 +174,7 @@ p {
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.367);
   background-color: #0075b47c;
   color: white;
-  padding: 16px;
+  padding: 12px 16px;
   font-size: 16px;
   border: none;
 }
@@ -258,6 +258,7 @@ p {
 
 @media screen and (max-width: 572px) {
   #mePic {
+    margin-top: 0;
     margin-left: 15px;
     padding-left: 0px;
     height: 140px;
