@@ -178,5 +178,55 @@
       "Nativo": [
         "Native",
         "Nativo"
+      ],
+
+     "Ene" : [
+        "Jan",
+        "Jan"
+      ],
+     "Feb" : [
+        "Feb",
+        "Fev"
+      ],
+     "Mar" : [
+        "Mar",
+        "Mar"
+      ],
+     "Abr" : [
+        "Apr",
+        "Abr"
+      ],
+     "May" : [
+        "May",
+        "Mai"
+      ],
+     "Jun" : [
+        "Jun",
+        "Jun"
+      ],
+     "Jul" : [
+        "Jul",
+        "Jul"
+      ],
+     "Ago" : [
+        "Aug",
+        "Ago"
+      ],
+     "Sep" : [
+        "Sep",
+        "Set"
+      ],
+     "Oct" : [
+        "Oct",
+        "Out"
+      ],
+     "Nov" : [
+        "Nov",
+        "Nov"
+      ],
+     "Dic" : [
+        "Dec",
+        "Dez"
       ]
+    
     }
