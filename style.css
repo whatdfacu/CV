@@ -6,7 +6,8 @@
 
 body {
   background-color: gray;
-  font-family: sans-serif;
+  font-family: "Kaushan Script", cursive;
+  font-family: "Noto Sans", sans-serif;
   line-height: 1.5;
   margin-left: 10%;
   margin-right: 10%;
@@ -93,7 +94,7 @@ p {
 }
 
 .summary p {
-  text-align: justify;
+  text-align: left;
 }
 
 .experience {
@@ -107,7 +108,7 @@ p {
 }
 
 .experience ul {
-  text-align: justify;
+  text-align: left;
 }
 
 .skills {
@@ -241,18 +242,18 @@ p {
       "footer footer footer footer";
   }
   .summary p {
-    text-align: justify;
+    text-align: left;
   }
   .experience {
     text-align: center;
   }
   .skills {
-    text-align: justify;
+    text-align: left;
     align-items: center;
     padding-bottom: 2em;
   }
   .educationContent {
-    text-align: justify;
+    text-align: left;
     flex-direction: column;
   }
 }
