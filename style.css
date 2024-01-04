@@ -6,7 +6,6 @@
 
 body {
   background-color: gray;
-  font-family: "Kaushan Script", cursive;
   font-family: "Noto Sans", sans-serif;
   line-height: 1.5;
   margin-left: 10%;
@@ -124,8 +123,9 @@ p {
   text-align: center;
 }
 
-.contact {
-  padding: 2em 0 2em 0;
+.contact,
+.languages {
+  padding: 2em 0;
   display: flex;
   justify-content: right;
   flex-direction: column;
@@ -241,11 +241,9 @@ p {
       "education education education education"
       "footer footer footer footer";
   }
-  .summary p {
-    text-align: left;
-  }
+  .summary p,
   .experience {
-    text-align: center;
+    text-align: left;
   }
   .skills {
     text-align: left;
@@ -298,27 +296,30 @@ p {
     height: 180px;
     width: 180px;
   }
-  .social-links {
+  .social-links,
+  .language-button {
     display: none;
   }
 
   .skills {
     flex-direction: row;
     justify-content: left;
-    padding: 1em 6em;
+    padding: 0 2em 0 4em;
+    margin-top: 0;
   }
-  .contact {
+  .contact,
+  .languages {
     padding-top: 0;
-    padding-left: 3em;
-  }
-
-  .contact {
+    padding-left: 2em;
     margin-top: 0;
   }
 
-  .language-button {
-    display: none;
+  .languages {
+    padding-top: 0;
+    padding-left: 2em;
+    margin-top: 0;
   }
+
   .grid-container {
     grid-template-areas:
       "extra header header header"
