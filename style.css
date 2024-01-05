@@ -270,7 +270,7 @@ p {
     margin-left: 15px;
     padding-left: 0px;
     height: auto;
-    width: 100%;
+    width: 110%;
   }
   .social-links {
     padding-top: 1em;
@@ -279,6 +279,8 @@ p {
 @media screen and (max-width: 452px) {
   #mePic {
 
+    height: auto;
+    width: 140%;
     margin-top: 40%;
 
   }
