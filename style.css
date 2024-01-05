@@ -42,8 +42,8 @@ p {
   text-align: right;
   align-items: center;
   grid-area: header;
-  background-color: #333c87;
-  color: #ffffff;
+/*   background-color: #333c87;
+ */  color: #ffffff;
   padding: 2em;
 }
 
@@ -79,8 +79,8 @@ p {
   justify-content: left;
   flex-direction: column;
   grid-area: extra;
-  background-color: #333c87;
-}
+/*   background-color: #333c87;
+ */}
 
 .summary {
   display: flex;
@@ -338,4 +338,20 @@ p {
       "education education education education"
       "footer footer footer footer";
   }
+}
+.fondo {
+  grid-row: 1; 
+  grid-column: 1 / span 4;
+  position: relative;
+  overflow: hidden;
+}
+
+.fondo video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
