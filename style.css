@@ -339,10 +339,14 @@ p {
     padding-left: 2em;
     margin-top: 0;
   }
+  
+  .educationContent li {
+    padding: 2.3em;
+  }
 
   .footer {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 
   .grid-container {
