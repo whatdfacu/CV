@@ -340,6 +340,11 @@ p {
     margin-top: 0;
   }
 
+  .footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
   .grid-container {
     grid-template-areas:
       "extra header header header"
