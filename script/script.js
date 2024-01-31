@@ -20,7 +20,6 @@ async function main(translateTo, languageKey) {
         // Si hay múltiples traducciones, elige la indicada
         let translation = translations[textContent][translateTo];
         element.textContent = translation;
-        console.log(`main(${translateTo}, ${languageKey}) runed`);
       }
     });
   }
@@ -50,15 +49,12 @@ let englishButton = document.getElementById("englishBut");
 spanishButton.onclick = function () {
   main(0, languageKeys.english);
   main(1, languageKeys.portuguese);
-  console.log("boton español tocado");
 };
 portugueseButton.onclick = function () {
   main(1, languageKeys.english);
   main(1, languageKeys.spanish);
-  console.log("boton portugues tocado");
 };
 englishButton.onclick = function () {
   main(0, languageKeys.spanish);
   main(0, languageKeys.portuguese);
-  console.log("boton ingles tocado");
 };
