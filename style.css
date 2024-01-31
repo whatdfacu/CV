@@ -340,10 +340,6 @@ p {
     margin-top: 0;
   }
 
-  .educationContent li {
-    padding-bottom: 2em;
-  }
-
   .grid-container {
     grid-template-areas:
       "extra header header header"
