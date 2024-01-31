@@ -317,7 +317,7 @@ p {
     width: 180px;
   }
   .social-links,
-  .language-button {
+  .language-button, .language-drop {
     display: none;
   }
 
