@@ -227,5 +227,18 @@
   "Dez": [
     "Dec",
     "Dic"
+  ],
+  "Presente": [
+      "Present day",
+      "Presente"
+  ],
+  "Especialista em Chamadas de Saída": [
+    "Outbound Calling Specialist",
+    "Especialista en Llamadas Salientes"
+  ],
+  "Realização de chamadas e apresentação de discursos de pré-venda para seguros de automóveis e residências": [
+    "Dialing and pre-sales speach for auto insurance and home insurance",
+    "Realización de llamadas y presentación de discursos de preventa para seguros de automóvil y de hogar"
   ]
+
 }
